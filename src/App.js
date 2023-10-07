@@ -13,7 +13,6 @@ function App() {
     <Homepage/>
     <div className='cursor'></div>
 
-    <Register />
 
     </div>
   );

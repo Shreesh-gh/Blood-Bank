@@ -321,7 +321,604 @@ export default function Homepage() {
           
         </div>
       </div>
+
+      <footer class=" text-white mt-[-100px] pt-[100px] bg-[#02042b] ">
+      <div class="w-10/12 pb-10 md:my-0 md:w-11/12 max-w-[1080px] mx-auto flex flex-col space-y-6 lg:space-y-0 lg:space-x-4 lg:flex-row justify-between">
+      <div class="flex flex-col max-w-[340px] lg:max-w-[260px]">
+          <img src="welcome.gif" loading="lazy"width="1200px"
+            height="24px"/>
+          <p class="text-grayText text-base my-3 ">
+            Our blood donation website is the premier platform for connecting donors and recipients seamlessly. It offers a comprehensive suite of features, enabling donors to easily register, find donation centers, and schedule appointments. Recipients can access a wide range of blood types and connect with willing donors. We support various payment methods, making the process convenient for all. Join us in saving lives, one donation at a time.
+          </p>
+          <form class="relative bg-white w-[260px] mt-2 mb-4">
+            <input placeholder="Your email address" class="pr-16  outline-blue-400 focus:outline-blue-200 placeholder:text-sm py-2 px-4 border rounded-sm transition-all duration-200"/>
+            <button class="h-[90%] bg-white absolute right-[1.5px] top-1/2 -translate-y-1/2 z-10  text-sm font-bold text-lightBlue300 flex rounded-sm items-center hover:text-lightBlue500 transition-all duration-200">
+              Subscribe
+              <svg
+                viewBox="0 0 24 24"
+                focusable="false"
+                class="w-[14px] h-[14px] ml-3"
+              >
+                <path
+                  fill="currentColor"
+                  d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                ></path>
+              </svg>
+            </button>
+          </form>
+          
+        </div>
+
+        <div
+          class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 justify-between"
+        >
+
+          <div class="space-y-3">
+            <div>
+              <p class=" uppercase font-bold text-white mb-1">
+                BANKING PLUS
+              </p>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >RazorpayX</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Current Accounts</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Payouts</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Payout Links</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Corporate Credit Card</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="relative  font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    View Live Demo
+                    <span
+                      class="text-white  uppercase bg-green-500 rounded-sm text-xs font-bold p-1"
+                      >New</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class=" uppercase font-bold text-white mb-1">
+                LENDING
+              </p>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Razorpay Capital</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Instant Settlements</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Working Capital Loans</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Marketplace Instant Settlements</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class=" uppercase font-bold text-white mb-1">
+                RISK & FRAUD
+              </p>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Thirdwatch</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="relative  font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    PrePay CoD
+                    <span
+                      class="text-white  uppercase bg-green-500 rounded-sm text-xs font-bold p-1"
+                      >New</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class=" uppercase font-bold text-white mb-1">
+                BECOME A PARTNER
+              </p>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Refer and Earn</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    Onboarding APIs
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class=" uppercase font-bold text-white mb-1">
+                MORE
+              </p>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Route</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Invoices</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Freelancer Payments</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >International</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Flash Checkout</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >UPI</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >ePOS</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Checkout Demo</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >RazorpayX Payroll</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div>
+              <p class=" uppercase font-bold text-white mb-1">
+                ACCEPT PAYMENTS
+              </p>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Payment Gateway</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Payment Pages</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Payment Links</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >QR Codes</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Subscriptions</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    Smart Collect
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class=" uppercase font-bold text-white mb-1">
+                DEVELOPERS
+              </p>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Docs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Integrations</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >API Reference</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class=" uppercase font-bold text-white mb-1">
+                RESOURCES
+              </p>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="relative  font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    Customer Stories
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="relative  font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    Events
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="relative  font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    Chargeback Guide
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="relative  font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    Settlement Guide
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class=" uppercase font-bold text-white mb-1">
+                SOLUTIONS
+              </p>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Education</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    E-commerce
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    Saas
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    BFSI
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class=" uppercase font-bold text-white mb-1">
+                FREE TOOLS
+              </p>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >GST Calculator</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Online TDS Payment</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="relative  font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    GST Number Search
+                    <span
+                      class="text-white  uppercase bg-green-500 rounded-sm text-xs font-bold p-1"
+                      >New</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <p class=" uppercase font-bold text-white mb-1">
+                COMPANY
+              </p>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" relative font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Careers
+                    <span
+                      class="text-white  bg-green-500 rounded-sm text-xs font-bold p-1"
+                      >We're hiring!</span
+                    >
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Terms of Use</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Grievance Redressal</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    Responsible Disclosure
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    Partners
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    White Papers
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                  >
+                    Corporate Information
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <p class=" uppercase font-bold text-white mb-1 mt-3">
+                HELP & SUPPORT
+              </p>
+              <ul class="space-y-2">
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Support</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class=" font-medium text-[#d24742] hover:text-[#a42524] transition-all duration-200"
+                    >Knowledge base</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p class=" uppercase font-bold text-white mb-1 mt-6">
+                FIND US ONLINE
+              </p>
+              <ul class="flex space-x-4 items-center mt-4">
+                <li class="cursor-pointer">
+                  <a>
+                    <img
+                      src="facebook-icon.svg"
+                      width="24"
+                      height="24"
+                      loading="lazy"
+                    />
+                  </a>
+                </li>
+                <li class="cursor-pointer">
+                  <a>
+                    <img
+                      src="twitter-icon.svg"
+                      width="24"
+                      height="24"
+                      loading="lazy"
+                    />
+                  </a>
+                </li>
+                <li class="cursor-pointer">
+                  <a>
+                    <img
+                      src="instagram-icon.svg"
+                      width="24"
+                      height="24"
+                      loading="lazy"
+                    />
+                  </a>
+                </li>
+                <li class="cursor-pointer">
+                  <a>
+                    <img
+                      src="linkedin-icon.svg"
+                      width="24"
+                      height="24"
+                      loading="lazy"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class=" mt-6">
+                <p class="text-xl">© Blood-Bank 2023</p>
+                <p class="text-base">Created with 💙</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     </section>
+    
   </div>
 
   )
